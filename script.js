@@ -4,7 +4,7 @@ const bg = document.querySelector('.bg');
 //set the load count to 1
 let load = 0;
 
-// create a time interval, calls the function blurring and goes on for 40 milliseconds
+// create a time interval, calls the function blurring and goes on for 20 milliseconds
 let interval = setInterval(blurring,20)
 
 function blurring(){
@@ -29,6 +29,7 @@ function blurring(){
 }
 
 // https://stackoverflow.com/questions/10756313/javascript-jquery-map-a-range-of-numbers-to-another-range-of-numbers
+// linear interpolation...
 const scale = (num, in_min, in_max, out_min, out_max) => {
     return ((num - in_min) * (out_max - out_min)) / (in_max - in_min) + out_min
   }
