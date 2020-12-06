@@ -32,6 +32,10 @@ body {
 
 @media (max-width: 400px){
   .bg {
-   background-position: 60% 0%;
+   background-position: 70% 0%;
+  }
+
+  .loading-text{
+    margin-bottom: 40px;
   }
 }
