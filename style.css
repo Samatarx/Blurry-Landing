@@ -29,3 +29,9 @@ body {
   font-size: 60px;
   color: white;
 }
+
+@media (max-width: 400px){
+  .bg {
+   background-position: 60% 0%;
+  }
+}
