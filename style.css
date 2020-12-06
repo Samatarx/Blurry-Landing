@@ -32,7 +32,8 @@ body {
 
 @media (max-width: 400px){
   .bg {
-   background-position: 80% 0%;
+   background-position: initial 0% 0%;
+   transform: translateX(-30px);
   }
 
   .loading-text{
